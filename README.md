@@ -1,8 +1,20 @@
 # HarMol: AI assisted Recipe Property Prediction Model
 
+## Contents
+* [Preliminary Test](#preliminary-test)
+  * [MolSets Dataset](#molsets-dataset)
+    * [Arrhenius Equation re-construct](#arrhenius-equation-re-construct)
+    * [XGBoost Regressor Parameters](#xgboost-regressor-parameters)
+    * [Sample Result](#sample-result)
+  * [ChemArr (2023 ACS.Cent.Sci) Dataset](#chemarr-(2023-acs.cent.sci)-dataset)
+    * [Sample Result](#sample-result)
+* [Reference and Acknowledgement](reference-and-acknowledgement)
+
+
 ## Preliminary Test
 
-### MolSets Dataset: 1077 entries
+### MolSets Dataset
+```1077 entries```
 [molset_smiles_clean.csv](https://github.com/StarLiu714/HarMol/files/14746855/molset_smiles_clean.csv)
 [molset_clean_ratio.csv](https://github.com/StarLiu714/HarMol/files/14746787/molset_clean_ratio.csv) 
 
@@ -41,7 +53,17 @@ xg_reg = xgb.XGBRegressor(
 
 
 ### ChemArr (2023 ACS.Cent.Sci) Dataset
-
+```10114 entrees```
+![clean_train_data.csv](https://github.com/StarLiu714/HarMol/files/14746987/clean_train_data.csv)
 ![acs cent sci2023](https://github.com/StarLiu714/HarMol/assets/87756322/32328788-4275-4da1-8ed4-b95e475ba228)
+
+#### Sample Result
+![regression_10114](https://github.com/StarLiu714/HarMol/assets/87756322/60f9e9ba-f26b-4ad8-b126-827f7e473610)
+
+
+
+## Reference and Acknowledgement
+
+
 
 
