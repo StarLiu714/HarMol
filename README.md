@@ -33,7 +33,7 @@ xg_reg = xgb.XGBRegressor(
 ```
 
 #### Sample Result
-![image](https://github.com/StarLiu714/HarMol/assets/87756322/dc2ee347-579b-4704-a26d-fec3bc3b9a05)
+![regression](https://github.com/StarLiu714/HarMol/assets/87756322/05715870-570e-4888-8518-f1b2da22e6bc)
 1. Pearson correlation: 0.91999
 2. Spearman r: 0.91638
    
