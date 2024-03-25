@@ -4,7 +4,7 @@
 
 ### MolSets 1077 Dataset
 
-1. Arrhenius Equation re-construct:
+#### Arrhenius Equation re-construct:
    ```python
    def fit_and_predict_conductivity(group_data, temp_to_predict):
      # Transformations
@@ -22,3 +22,18 @@
      predicted_log_sigma_col = predicted_log_sigma[0]
      return predicted_log_sigma_col
  ```
+
+#### XGBoost Regressor Parameters
+```python
+xg_reg = xgb.XGBRegressor(
+ n_estimators=400, objective='reg:squarederror', colsample_bytree=0.3,
+ learning_rate=0.05, max_depth=6, alpha=3,
+ # tree_method='gpu_hist' if device.type == 'cuda' else 'auto'
+ )
+```
+
+#### Sample Result
+![image](https://github.com/StarLiu714/HarMol/assets/87756322/dc2ee347-579b-4704-a26d-fec3bc3b9a05)
+1. Pearson correlation: 0.91999
+2. Spearman r: 0.91638
+   
