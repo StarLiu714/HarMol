@@ -1,11 +1,9 @@
-[molset_clean_ratio.csv](https://github.com/StarLiu714/HarMol/files/14746787/molset_clean_ratio.csv)# HarMol: AI assisted Recipe Property Prediction Model
+# HarMol: AI assisted Recipe Property Prediction Model
 
 ## Preliminary Test
 
 ### MolSets Dataset
-1077 entries
-[Uploading molset_clean_ratio.csv…]()
-
+[molset_clean_ratio.csv](https://github.com/StarLiu714/HarMol/files/14746787/molset_clean_ratio.csv), 1077 entries
 
 #### Arrhenius Equation re-construct:
    ```python
