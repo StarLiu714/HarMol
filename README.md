@@ -16,7 +16,7 @@
      # Fit
      model = LinearRegression()
      model.fit(X, y)
-    # Predict
+     # Predict
      inverse_temp = 1 / temp_to_predict
      predicted_log_sigma = model.predict([[inverse_temp]])
      predicted_log_sigma_col = predicted_log_sigma[0]
