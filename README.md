@@ -56,7 +56,7 @@ xg_reg = xgb.XGBRegressor(
 ### ChemArr (2023 ACS.Cent.Sci) Dataset
 ```10114 entrees```
 
-![clean_train_data.csv](https://github.com/StarLiu714/HarMol/files/14746987/clean_train_data.csv)
+[clean_train_data.csv](https://github.com/StarLiu714/HarMol/files/14746987/clean_train_data.csv)
 
 
 #### Sample Result
