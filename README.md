@@ -1,8 +1,11 @@
-# HarMol: AI assisted Recipe Property Prediction Model
+[molset_clean_ratio.csv](https://github.com/StarLiu714/HarMol/files/14746787/molset_clean_ratio.csv)# HarMol: AI assisted Recipe Property Prediction Model
 
 ## Preliminary Test
 
-### MolSets 1077 Dataset
+### MolSets Dataset
+1077 entries
+[Uploading molset_clean_ratio.csv…]()
+
 
 #### Arrhenius Equation re-construct:
    ```python
@@ -36,4 +39,10 @@ xg_reg = xgb.XGBRegressor(
 ![regression](https://github.com/StarLiu714/HarMol/assets/87756322/05715870-570e-4888-8518-f1b2da22e6bc)
 1. Pearson correlation: 0.91999
 2. Spearman r: 0.91638
-   
+
+
+### ChemArr (2023 ACS.Cent.Sci) Dataset
+
+![acs cent sci2023](https://github.com/StarLiu714/HarMol/assets/87756322/32328788-4275-4da1-8ed4-b95e475ba228)
+
+
