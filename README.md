@@ -1,6 +1,7 @@
 # HarMol: AI assisted Recipe Property Prediction Model
 
 ## Contents
+* [Code Implementation](#code-implementation)
 * [Preliminary Test](#preliminary-test)
   * [MolSets Dataset](#molsets-dataset)
     * [Arrhenius Equation re-construct](#arrhenius-equation-re-construct)
@@ -10,6 +11,10 @@
     * [Sample Result](#sample-result)
 * [Reference and Acknowledgement](reference-and-acknowledgement)
 
+## Code Implementation
+For details for HarMol implementation, please check:
+
+[Unimol_XGB_recipe](https://github.com/StarLiu714/HarMol/blob/main/Unimol%2BXGB_recipe.ipynb)
 
 ## Preliminary Test
 
