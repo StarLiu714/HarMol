@@ -2,8 +2,9 @@
 
 ## Preliminary Test
 
-### MolSets Dataset
-[molset_clean_ratio.csv](https://github.com/StarLiu714/HarMol/files/14746787/molset_clean_ratio.csv), 1077 entries
+### MolSets Dataset: 1077 entries
+[molset_smiles_clean.csv](https://github.com/StarLiu714/HarMol/files/14746855/molset_smiles_clean.csv)
+[molset_clean_ratio.csv](https://github.com/StarLiu714/HarMol/files/14746787/molset_clean_ratio.csv) 
 
 #### Arrhenius Equation re-construct:
    ```python
